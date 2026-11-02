@@ -1,7 +1,7 @@
 /* Service worker SDR Quest Tracker: работа без сети и установка как приложение.
    Страница берётся из сети (всегда свежая версия), кеш служит запасом без интернета.
-   Чужие адреса (Supabase, Google) не трогаем. 4.17.1 подставляет build.py. */
-const CACHE = "sdr-quest-4.17.1";
+   Чужие адреса (Supabase, Google) не трогаем. 4.18.0 подставляет build.py. */
+const CACHE = "sdr-quest-4.18.0";
 const ASSETS = ["./", "index.html", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png"];
 
 self.addEventListener("install", e => {
